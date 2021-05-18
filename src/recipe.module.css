@@ -1,4 +1,6 @@
 .recipe {
+  border-style: solid;
+  border-width: 1px;
   border-radius: 10px;
   box-shadow: 0px 5px 20px rgba(83, 80, 80, 0.123);
   margin: 20px;
@@ -19,4 +21,8 @@
 
 ::placeholder {
   text-align: center;
+}
+
+.ingredients {
+  justify-content: flex-start;
 }
