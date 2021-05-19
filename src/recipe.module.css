@@ -12,6 +12,7 @@
   min-width: 40%;
   max-width: 90%;
   padding: 8px;
+  background: rgba(226, 209, 195, 0.8);
 }
 
 .calories {
@@ -23,6 +24,19 @@
   text-align: center;
 }
 
+.title {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
 .ingredients {
-  justify-content: flex-start;
+  width: 100%;
+  text-decoration: underline;
+  padding: 0px;
+}
+
+#ul1 {
+  list-style-type: none;
+  padding: 0px 6px 10px 10px;
+  margin: 0px 6px 10px 10px;
 }

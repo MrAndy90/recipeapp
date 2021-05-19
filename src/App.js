@@ -8,7 +8,7 @@ const App = () => {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("chicken");
+  const [query, setQuery] = useState("Chicken");
 
   useEffect(() => {
     getRecipes();
@@ -46,6 +46,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <img src="CookingFromHome.jpg" alt=""></img>
       <form onSubmit={getSearch} className="search-form">
         <input
           required

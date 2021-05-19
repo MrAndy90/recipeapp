@@ -1,6 +1,8 @@
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+  background-image: url("CookingFromHome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .search-form {
